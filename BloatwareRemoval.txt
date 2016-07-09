@@ -9,6 +9,7 @@ Get-AppxPackage *photo* | Remove-AppxPackage
 Get-AppxPackage *solit* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
 Get-AppxPackage *soundrec* | Remove-AppxPackage
+Get-AppxPackage *map* | Remove-AppxPackage
 
 
 Get-AppxPackage *WindowsStore*| Remove-AppxPackage
