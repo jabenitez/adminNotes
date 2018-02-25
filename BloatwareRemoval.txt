@@ -1,3 +1,6 @@
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+
+
 Get-AppxPackage *3d* | Remove-AppxPackage
 Get-AppxPackage *camera* | Remove-AppxPackage
 Get-AppxPackage *communi* | Remove-AppxPackage
