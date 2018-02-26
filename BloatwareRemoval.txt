@@ -1,6 +1,6 @@
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 
-Get-AppxPackage -AllUsers | where-object {$_.name –notlike “*store*”} | Remove-AppxPackage
+Get-appxprovisionedpackage –online | where-object {$_.packagename –notlike “*store*”} | Remove-AppxProvisionedPackage -online
 
 Get-AppxPackage *3d* | Remove-AppxPackage
 Get-AppxPackage *camera* | Remove-AppxPackage
